@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="8px" viewBox="0 0 14 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60.1 (88133) - https://sketch.com -->
+    <title>Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M143,244.585786 L137.707107,239.292893 C137.316582,238.902369 136.683418,238.902369 136.292893,239.292893 C135.902369,239.683418 135.902369,240.316582 136.292893,240.707107 L142.292893,246.707107 C142.683418,247.097631 143.316582,247.097631 143.707107,246.707107 L149.707107,240.707107 C150.097631,240.316582 150.097631,239.683418 149.707107,239.292893 C149.316582,238.902369 148.683418,238.902369 148.292893,239.292893 L143,244.585786 Z" id="path-1"></path>
+    </defs>
+    <g id="Mobile" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Mobile-Menu_Dropdown" transform="translate(-136.000000, -239.000000)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Shape" fill="#FFFFFF" fill-rule="nonzero" transform="translate(143.000000, 243.000000) scale(1, -1) translate(-143.000000, -243.000000) " xlink:href="#path-1"></use>
+        </g>
+    </g>
+</svg>

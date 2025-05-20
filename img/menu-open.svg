@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>button/mobile/menu</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Mobile" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Team_Mobile" transform="translate(-313.000000, -36.000000)">
+            <g id="button/mobile/menu" transform="translate(313.000000, 36.000000)">
+                <g>
+                    <rect id="Rectangle" fill="#121212" x="0" y="0" width="40" height="40" rx="20"></rect>
+                    <g id="Group" transform="translate(13.600000, 15.200000)" fill="#FFFFFF">
+                        <rect id="Rectangle" x="-3.55271368e-15" y="3.71924713e-14" width="12.8470588" height="1.22352941" rx="0.611764706"></rect>
+                        <rect id="Rectangle" x="-3.55271368e-15" y="4.58823529" width="12.8470588" height="1.22352941" rx="0.611764706"></rect>
+                        <rect id="Rectangle" x="-3.55271368e-15" y="9.17647059" width="12.8470588" height="1.22352941" rx="0.611764706"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
