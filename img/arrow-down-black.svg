@@ -2,5 +2,5 @@
   <defs>
     <path id="a" d="m143 244.586-5.293-5.293a1 1 0 0 0-1.414 1.414l6 6a1 1 0 0 0 1.414 0l6-6a1 1 0 0 0-1.414-1.414L143 244.586Z"/>
   </defs>
-  <use xlink:href="#a" fill="#ffffff" fill-rule="nonzero" transform="matrix(1 0 0 -1 -136 247)"/>
+  <use xlink:href="#a" fill="#000000" fill-rule="nonzero" transform="matrix(1 0 0 -1 -136 247)"/>
 </svg>

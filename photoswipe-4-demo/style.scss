@@ -1,0 +1,134 @@
+// RESET
+
+/* 1. Use a more-intuitive box-sizing model */
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+/* 2. Remove default margin */
+* {
+	margin: 0;
+}
+
+/* 3. Enable keyword animations */
+@media (prefers-reduced-motion: no-preference) {
+	html {
+		interpolate-size: allow-keywords;
+	}
+}
+
+body {
+	/* 4. Add accessible line-height */
+	line-height: 1.5;
+	/* 5. Improve text rendering */
+	-webkit-font-smoothing: antialiased;
+}
+
+/* 6. Improve media defaults */
+img,
+picture,
+video,
+canvas,
+svg {
+	display: block;
+	max-width: 100%;
+}
+
+/* 7. Inherit fonts for form controls */
+input,
+button,
+textarea,
+select {
+	font: inherit;
+}
+
+/* 8. Avoid text overflows */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	overflow-wrap: break-word;
+}
+
+/* 9. Improve line wrapping */
+p {
+	text-wrap: pretty;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	text-wrap: balance;
+}
+
+/*
+  10. Create a root stacking context
+*/
+#root,
+#__next {
+	isolation: isolate;
+}
+
+// MAIN
+.container {
+	max-width: 1024px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.padding {
+	padding-left: 0.5rem;
+	padding-right: 0.5rem;
+
+	@media screen and (min-width: 768px) {
+		padding-left: 1rem;
+		padding-right: 1rem;
+	}
+}
+
+// PHOTOSWIPE
+// COLLECTION GALLERY
+// .collection-gallery {
+// 	display: flex;
+// 	flex-wrap: wrap;
+// 	gap: 12px;
+
+// 	&-item {
+// 		flex-basis: calc(100% / 3 - 8px);
+// 	}
+
+// 	// ONLY DISPLAY CAPTION WHEN PHOTOSWIPE IS INITIALISED
+// 	figure {
+// 		display: none;
+// 	}
+// }
+
+.collection-gallery {
+	display: flex;
+	flex-wrap: wrap;
+	// flex-direction: row;
+	// justify-content: center;
+	// align-items: center;
+	gap: 12px;
+
+	&-item {
+		flex-basis: calc(100% / 3 - 8px);
+		transition: all 400ms;
+
+		&:hover {
+			transform: scale(1.02);
+		}
+	}
+
+	// ONLY DISPLAY CAPTION WHEN PHOTOSWIPE IS INITIALISED
+	figure {
+		display: none;
+	}
+}
