@@ -168,16 +168,16 @@ dropdownNavLinks.forEach((navLink) => {
                     }
                 }
 
-                // var mediumSrc = el.getAttribute("data-med");
-                // if (mediumSrc) {
-                // 	size = el.getAttribute("data-med-size").split("x");
-                // 	// "medium-sized" image
-                // 	item.m = {
-                // 		src: mediumSrc,
-                // 		w: parseInt(size[0], 10),
-                // 		h: parseInt(size[1], 10),
-                // 	};
-                // }
+                var mediumSrc = el.getAttribute("data-med");
+                if (mediumSrc) {
+                    size = el.getAttribute("data-med-size").split("x");
+                    // "medium-sized" image
+                    item.m = {
+                        src: mediumSrc,
+                        w: parseInt(size[0], 10),
+                        h: parseInt(size[1], 10)
+                    };
+                }
 
                 // original image
                 item.o = {
