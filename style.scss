@@ -911,6 +911,7 @@ header {
 	height: 62.5dvh;
 
 	&-text {
+		font-size: clamp(2.1rem, 0.45rem + 8.2vw, 6.8rem);
 		letter-spacing: 5px;
 	}
 }
