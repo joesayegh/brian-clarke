@@ -438,12 +438,12 @@ header {
 		margin-top: 5px;
 	}
 
-	@media (max-width: 1024px) {
-		&.w--current {
-			margin-top: 4px;
-			margin-bottom: 4px;
-		}
-	}
+	// @media (max-width: 1024px) {
+	//     &.w--current {
+	//         margin-top: 4px;
+	//         margin-bottom: 4px;
+	//     }
+	// }
 
 	span {
 		font-family: var(--font-heading);

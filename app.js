@@ -178,6 +178,7 @@ dropdownNavLinks.forEach((navLink) => {
 						h: parseInt(size[1], 10),
 					};
 				}
+
 				// original image
 				item.o = {
 					src: item.src,
