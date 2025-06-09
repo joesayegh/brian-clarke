@@ -124,6 +124,9 @@ dropdownNavLinks.forEach((navLink) => {
 	});
 });
 
+// AOS INITI
+AOS.init();
+
 // PHOTOSWIPE 4
 // Parse gallery elements manually
 (function () {
